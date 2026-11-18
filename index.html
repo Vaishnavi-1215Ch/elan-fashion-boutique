@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Discover considered wardrobe pieces and modern feminine style at Élan Fashion Boutique." />
+    <meta name="theme-color" content="#171717" />
+    <title>Élan Fashion Boutique — A study in style</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500;6..96,600;6..96,700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="announcement">A little something extra — complimentary shipping on orders over $150</div>
+    <header class="site-header" id="top">
+      <a class="wordmark" href="#top" aria-label="Élan Fashion Boutique home">ÉLAN<span>.</span></a>
+      <button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="primary-navigation">
+        <span></span><span></span>
+      </button>
+      <nav class="site-nav" id="primary-navigation" aria-label="Main navigation">
+        <a href="#new-arrivals">New arrivals</a>
+        <a href="#collection">Shop clothing</a>
+        <a href="#about">Our story</a>
+        <a href="#journal">The journal</a>
+        <button class="bag-button" type="button" aria-label="Open shopping bag">
+          Bag <span class="bag-count" id="bag-count" aria-live="polite" aria-atomic="true">0</span>
+        </button>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span> A STUDY IN STYLE · EST. 2018</p>
+          <h1 id="hero-title">A wardrobe<br />with <em>feeling.</em></h1>
+          <p class="hero-description">Thoughtful pieces for wherever life takes you. Meet the new season, considered from the very first layer.</p>
+          <div class="hero-actions">
+            <a class="button button-dark" href="#new-arrivals">Discover the new edit <span aria-hidden="true">↗</span></a>
+            <a class="quiet-link" href="#about">A little about us <span aria-hidden="true">↓</span></a>
+          </div>
+          <span class="hero-index">THE AUTUMN / WINTER EDIT <span>—</span> 01 / 04</span>
+        </div>
+        <div class="hero-image-panel">
+          <img src="https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&amp;fit=crop&amp;w=1200&amp;q=85" alt="Model in an elegant neutral-toned fashion look" fetchpriority="high" />
+          <span class="image-credit">THE NEW SEASON, IN GOOD COMPANY</span>
+          <span class="hero-side-caption">MODERN ROMANCE · THE NEW SEASON</span>
+        </div>
+        <a class="hero-scroll" href="#new-arrivals"><span></span> SCROLL TO EXPLORE</a>
+      </section>
+
+      <section class="intro section-pad" id="about" aria-labelledby="about-title">
+        <div class="intro-image reveal">
+          <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&amp;fit=crop&amp;w=1000&amp;q=85" alt="Friends exploring a thoughtful edit of boutique fashion" loading="lazy" />
+          <span class="image-note">DRESSED FOR YOUR OWN STORY</span>
+        </div>
+        <div class="intro-copy reveal">
+          <p class="eyebrow"><span></span> A NOTE FROM ÉLAN</p>
+          <h2 id="about-title">Style is personal.<br /><em>Getting dressed</em><br />should feel like it.</h2>
+          <p>Élan is an independent boutique for women who dress for themselves. We bring together beautifully made pieces, thoughtful details, and a point of view that feels entirely your own.</p>
+          <p>From the first coffee to the last look in the mirror, we want finding your style to feel a little less like shopping — and a lot more like you.</p>
+          <a class="quiet-link" href="#journal">A little more about Élan <span aria-hidden="true">↗</span></a>
+          <div class="signature">Wear what moves you. <span>— The Élan team</span></div>
+        </div>
+      </section>
+
+      <section class="new-arrivals section-pad" id="new-arrivals" aria-labelledby="arrivals-title">
+        <div class="section-heading reveal">
+          <div>
+            <p class="eyebrow"><span></span> JUST LANDED</p>
+            <h2 id="arrivals-title">New, with <em>feeling.</em></h2>
+          </div>
+          <a class="quiet-link" href="#collection">Shop all clothing <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="product-grid">
+          <article class="product-card reveal">
+            <div class="product-image">
+              <img src="https://images.unsplash.com/photo-1551232864-3f0890e580d9?auto=format&amp;fit=crop&amp;w=800&amp;q=85" alt="Soft tailored outerwear in a neutral palette" loading="lazy" />
+              <span class="product-tag">JUST IN</span>
+              <button class="quick-add" type="button" data-name="The Modern Trench" data-price="248">Add to bag <span aria-hidden="true">+</span></button>
+            </div>
+            <div class="product-info"><div><h3>The Modern Trench</h3><span>Stone · Organic cotton</span></div><strong>$248</strong></div>
+          </article>
+          <article class="product-card reveal">
+            <div class="product-image">
+              <img src="https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?auto=format&amp;fit=crop&amp;w=800&amp;q=85" alt="A beautifully textured neutral knitwear piece" loading="lazy" />
+              <span class="product-tag">ÉLAN EXCLUSIVE</span>
+              <button class="quick-add" type="button" data-name="The Sunday Knit" data-price="168">Add to bag <span aria-hidden="true">+</span></button>
+            </div>
+            <div class="product-info"><div><h3>The Sunday Knit</h3><span>Oatmeal · Merino wool</span></div><strong>$168</strong></div>
+          </article>
+          <article class="product-card reveal">
+            <div class="product-image">
+              <img src="https://images.unsplash.com/photo-1591047139829-d91aecb6caea?auto=format&amp;fit=crop&amp;w=800&amp;q=85" alt="A polished, easy-to-style wardrobe layer" loading="lazy" />
+              <span class="product-tag">A BESTSELLER</span>
+              <button class="quick-add" type="button" data-name="The Everyday Blazer" data-price="220">Add to bag <span aria-hidden="true">+</span></button>
+            </div>
+            <div class="product-info"><div><h3>The Everyday Blazer</h3><span>Espresso · Recycled blend</span></div><strong>$220</strong></div>
+          </article>
+          <article class="product-card reveal">
+            <div class="product-image">
+              <img src="https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&amp;fit=crop&amp;w=800&amp;q=85" alt="An elegant rose-toned dress for day or evening" loading="lazy" />
+              <span class="product-tag">LIMITED RUN</span>
+              <button class="quick-add" type="button" data-name="The After Hours Dress" data-price="195">Add to bag <span aria-hidden="true">+</span></button>
+            </div>
+            <div class="product-info"><div><h3>The After Hours Dress</h3><span>Rosewood · Tencel satin</span></div><strong>$195</strong></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="featured" aria-labelledby="featured-title">
+        <img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&amp;fit=crop&amp;w=1800&amp;q=90" alt="Fashion muse wearing a confident modern look" loading="lazy" />
+        <div class="featured-overlay"></div>
+        <div class="featured-copy reveal">
+          <p class="eyebrow"><span></span> THE ÉLAN POINT OF VIEW</p>
+          <h2 id="featured-title">The art of<br /><em>the in-between.</em></h2>
+          <p>Easy layers. Unexpected details. Pieces that go where you go.</p>
+          <a class="button button-light" href="#collection">Meet the collection <span aria-hidden="true">↗</span></a>
+        </div>
+        <span class="featured-caption">COLLECTION Nº 04 — ALL THE PLACES YOU'LL GO</span>
+      </section>
+
+      <section class="collection section-pad" id="collection" aria-labelledby="collection-title">
+        <div class="section-heading reveal">
+          <div>
+            <p class="eyebrow"><span></span> THE CONSIDERED WARDROBE</p>
+            <h2 id="collection-title">Pieces to <em>keep.</em></h2>
+          </div>
+          <p>Wear on repeat. Make your own.<br />A few good things go a long way.</p>
+        </div>
+        <div class="product-grid">
+          <article class="product-card reveal">
+            <div class="product-image">
+              <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&amp;fit=crop&amp;w=800&amp;q=85" alt="A confident street-style look in soft neutral tones" loading="lazy" />
+              <span class="product-tag">THE ÉLAN EDIT</span>
+              <button class="quick-add" type="button" data-name="The City Trouser" data-price="178">Add to bag <span aria-hidden="true">+</span></button>
+            </div>
+            <div class="product-info"><div><h3>The City Trouser</h3><span>Black · Tailored twill</span></div><strong>$178</strong></div>
+          </article>
+          <article class="product-card reveal">
+            <div class="product-image">
+              <img src="https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?auto=format&amp;fit=crop&amp;w=800&amp;q=85" alt="A feminine blouse styled with timeless accessories" loading="lazy" />
+              <span class="product-tag">ONLY AT ÉLAN</span>
+              <button class="quick-add" type="button" data-name="The Poet Blouse" data-price="145">Add to bag <span aria-hidden="true">+</span></button>
+            </div>
+            <div class="product-info"><div><h3>The Poet Blouse</h3><span>Ivory · Cotton voile</span></div><strong>$145</strong></div>
+          </article>
+          <article class="product-card reveal">
+            <div class="product-image">
+              <img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&amp;fit=crop&amp;w=800&amp;q=85" alt="A curated selection of timeless wardrobe essentials" loading="lazy" />
+              <span class="product-tag">A GOOD CLASSIC</span>
+              <button class="quick-add" type="button" data-name="The Sunday Skirt" data-price="158">Add to bag <span aria-hidden="true">+</span></button>
+            </div>
+            <div class="product-info"><div><h3>The Sunday Skirt</h3><span>Soft rose · Fluid crepe</span></div><strong>$158</strong></div>
+          </article>
+          <article class="product-card reveal">
+            <div class="product-image">
+              <img src="https://images.unsplash.com/photo-1591369822096-ffd140ec948f?auto=format&amp;fit=crop&amp;w=800&amp;q=85" alt="A polished contemporary outfit with refined accessories" loading="lazy" />
+              <span class="product-tag">MADE TO MOVE</span>
+              <button class="quick-add" type="button" data-name="The Day-to-Night Set" data-price="265">Add to bag <span aria-hidden="true">+</span></button>
+            </div>
+            <div class="product-info"><div><h3>The Day-to-Night Set</h3><span>Chocolate · Linen blend</span></div><strong>$265</strong></div>
+          </article>
+        </div>
+        <div class="collection-footer"><span>MADE FOR THE WAY YOU MOVE THROUGH THE WORLD</span><a class="quiet-link" href="#journal">Read our style notes <span aria-hidden="true">↗</span></a></div>
+      </section>
+
+      <section class="journal section-pad" id="journal" aria-labelledby="journal-title">
+        <div class="journal-copy reveal">
+          <p class="eyebrow"><span></span> NOTES FROM THE STUDIO</p>
+          <h2 id="journal-title">A little less rush.<br /><em>A lot more you.</em></h2>
+          <p>We believe style is not a set of rules, but a way of feeling at home in yourself. Our edit is made for real days, special nights, and everything in between.</p>
+          <a class="quiet-link" href="#testimonials">Read what our wearers say <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="journal-image reveal">
+          <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&amp;fit=crop&amp;w=1000&amp;q=85" alt="Portrait of a woman wearing a relaxed, modern fashion look" loading="lazy" />
+          <span>LOOK GOOD. FEEL LIKE YOURSELF.</span>
+        </div>
+      </section>
+
+      <section class="testimonials section-pad" id="testimonials" aria-labelledby="testimonials-title">
+        <div class="testimonial-heading reveal">
+          <p class="eyebrow"><span></span> WORDS WE WEAR</p>
+          <h2 id="testimonials-title">Good style. <em>Good company.</em></h2>
+          <span class="stars" aria-label="Five out of five stars">★★★★★</span>
+        </div>
+        <div class="testimonial-grid">
+          <figure class="testimonial-card reveal">
+            <blockquote>“Every piece feels like it was waiting for me. I came in for one thing and left with a whole new way to wear my wardrobe.”</blockquote>
+            <figcaption><span class="review-initial">M</span><span><strong>Marin C.</strong><small>Élan regular</small></span></figcaption>
+          </figure>
+          <figure class="testimonial-card reveal">
+            <blockquote>“The loveliest edit and the kindest team. I finally found pieces that feel polished but still completely like me.”</blockquote>
+            <figcaption><span class="review-initial rose-initial">S</span><span><strong>Sienna R.</strong><small>Since spring '24</small></span></figcaption>
+          </figure>
+          <figure class="testimonial-card reveal">
+            <blockquote>“Shopping here feels like having a friend with wonderful taste. Thoughtful, easy, and always a little inspiring.”</blockquote>
+            <figcaption><span class="review-initial gold-initial">A</span><span><strong>Alex T.</strong><small>Élan regular</small></span></figcaption>
+          </figure>
+        </div>
+        <p class="fictional-note">Fictional testimonials for portfolio demonstration.</p>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="contact">
+      <div class="footer-main">
+        <div class="footer-brand">
+          <a class="wordmark" href="#top" aria-label="Élan Fashion Boutique home">ÉLAN<span>.</span></a>
+          <p>Clothes for the life you live.<br />And all the lives you might.</p>
+        </div>
+        <div class="footer-column">
+          <h2>Come by</h2>
+          <address>214 Wythe Avenue<br />Brooklyn, NY 11249</address>
+          <a href="https://maps.google.com/?q=214+Wythe+Avenue+Brooklyn+NY+11249" target="_blank" rel="noreferrer">Find the boutique ↗</a>
+        </div>
+        <div class="footer-column">
+          <h2>Say hello</h2>
+          <a href="tel:+17185550182">(718) 555-0182</a>
+          <a href="mailto:hello@elanboutique.example">hello@elanboutique.example</a>
+          <span>Tue–Sat, 11am–7pm</span>
+        </div>
+        <div class="footer-column">
+          <h2>Follow your feeling</h2>
+          <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">Instagram ↗</a>
+          <a href="https://www.pinterest.com/" target="_blank" rel="noreferrer">Pinterest ↗</a>
+          <a href="https://www.tiktok.com/" target="_blank" rel="noreferrer">TikTok ↗</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span id="current-year"></span> Élan Fashion Boutique</span>
+        <span>Independent by nature. Considered by design.</span>
+        <a href="#top">Back to top ↑</a>
+      </div>
+    </footer>
+
+    <dialog class="cart-dialog" id="cart-dialog" aria-labelledby="cart-title">
+      <div class="cart-heading">
+        <div><p class="eyebrow"><span></span> YOUR ÉLAN EDIT</p><h2 id="cart-title">Your bag <span id="dialog-bag-count">(0)</span></h2></div>
+        <button class="cart-close" type="button" aria-label="Close shopping bag">×</button>
+      </div>
+      <div class="cart-items" id="cart-items"></div>
+      <p class="cart-empty" id="cart-empty">A good thing could go here.</p>
+      <div class="cart-total"><span>Subtotal</span><strong id="cart-total">$0</strong></div>
+      <p class="cart-note">Shipping and taxes calculated at checkout.</p>
+      <button class="button button-dark checkout-button" type="button">Continue to checkout <span aria-hidden="true">↗</span></button>
+      <p class="checkout-status" id="checkout-status" role="status" aria-live="polite"></p>
+    </dialog>
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  </body>
+</html>
